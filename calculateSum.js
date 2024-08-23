@@ -1,0 +1,1 @@
+const calculateSum = (array) => array.length === 0 ? 0 : array[0] + calculateSum(array.slice(1));

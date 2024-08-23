@@ -1,6 +1,3 @@
-const deepNestedArray = [[[[[[[[[[[[1, 2, 3, 9]]]]]]]]]]]];
-const simpleNestedArray = [1, [2], [3, [4]], 5, [6, [7, [8], [8493, 8383]], [9, 34, [5, 6, 7]]]];
-
 const getNestedLevel = (array) => {
     if (!Array.isArray(array)) return 0;
     let maximumDepth = 1;
